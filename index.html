@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>FormDarkLigth</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="login_form">
+        <div class="form_header">
+          <h1>Login</h1>
+          <i id="mode_icon" class="fa-solid fa-moon"></i>
+        </div>
+        <div class="social_midia">
+          <a href="#">
+            <img
+              src="https://cdn.icon-icons.com/icons2/2415/PNG/512/facebook_plain_logo_icon_146525.png"
+              alt="Facebook Logo"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+              alt="Linkedin Logo"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="https://expertiseenergia.com.br/wp-content/uploads/2016/04/twitter-logo.png"
+              alt="twitter Logo"
+            />
+          </a>
+        </div>
+        <div class="inputs">
+          <div class="input_box">
+            <label for="name"
+              >Name
+              <div class="input_field">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" id="name" name="name" />
+              </div>
+            </label>
+          </div>
+          <div class="input_box">
+            <label for="email"
+              >E-mail
+              <div class="input_field">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="text" id="email" name="email" />
+              </div>
+            </label>
+          </div>
+          <div class="input_box">
+            <label for="password"
+              >password
+              <div class="input_field">
+                <i class="fa-solid fa-key"></i>
+                <input type="password" id="password" name="password" />
+              </div>
+            </label>
+            <div class="forgot_password">
+              <a href="">Forgot your password</a>
+            </div>
+          </div>
+        </div>
+
+        <button type="submit" class="btn">Login</button>
+      </form>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
